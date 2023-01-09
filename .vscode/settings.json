@@ -1,0 +1,16 @@
+{
+    "jupyter.kernels.filter": [
+        {
+            "path": "c:\\Users\\giorg\\AppData\\Roaming\\jupyter\\kernels\\deepl37\\kernel.json",
+            "type": "jupyterKernelspec"
+        },
+        {
+            "path": "c:\\Users\\giorg\\AppData\\Roaming\\jupyter\\kernels\\scrap37\\kernel.json",
+            "type": "jupyterKernelspec"
+        },
+        {
+            "path": "c:\\Users\\giorg\\AppData\\Roaming\\jupyter\\kernels\\semantics310\\kernel.json",
+            "type": "jupyterKernelspec"
+        }
+    ]
+}

@@ -312,7 +312,7 @@ if __name__ == "__main__":
         
         # Splittind corpus e multiprocessing
         
-        value = parallelize_dataframe(ds = value, 
+        value = parallelize_dataframe(df = value, 
                                         func = parallelize_normalizer, 
                                         num_processes = num_process) 
 

@@ -18,6 +18,9 @@
 - swifter==1.3.4
 - textblob==0.17.1
 - tqdm==4.64.1
+- scikit-learn==1.2.0
+- rouge-score==0.1.2
+- imbalanced-learn==0.10.1
 
 ## TLDRHQ: Data and Text Pre-processing
 

@@ -92,6 +92,7 @@ Run notebook 'Preprocessing for summarization.ipynb' in order to:
 - remove document with a single sentence
 - split train dataset 
 
+```
 project_folder
 └───Processed Data For Summarization
     ├───test_0.json
@@ -111,9 +112,12 @@ project_folder
     ├───val_0.json
     ├───val_1.json
     └───val_2.json
-    
+```
+
 ### Step 1. Create a feature matrix for each of the JSON in 'Processed Data For Summarization'
 Run featureMatrixGeneration.py obtaining feature matrices (sentences x features). You get a directory tree like this:
+
+```
 project_folder
 └───Feature Matrices
     ├───test_0.csv
@@ -133,8 +137,12 @@ project_folder
     ├───val_0.csv
     ├───val_1.csv
     └───val_2.csv
+```
     
  Run the notebook featureMatrixGeneration2.ipynb to join train, val and test datasets. You get a directory tree like this:
+ 
+ ```
+ project_folder
  └───Feature Matrices
     ├───test_0.csv
     ├───test_1.csv
@@ -156,6 +164,7 @@ project_folder
     ├───test.csv
     ├───train.csv
     └───val.csv
+```
     
 Features generated at this step are the following:
 - sentence_relative_positions
@@ -170,20 +179,26 @@ Features generated at this step are the following:
     
 ### Step 2. Perform CUR undersampling
 Run notebook featureMatrixUndersampling.ipynb in order to perform CUR undersampling on both train and validation data sets. You get a directory tree like this:
+
+```
 project_folder
 └───Undersampled Data
     ├───trainAndValMinorityClass.csv
     └───trainAndValMajorityClassUndersampled.csv
+```
 
 Majority and minority class are splitted because CUR undersampling works only on the majority class
 
 ### Step 3. Perform EditedNearestNeighbours(ENN) undersamplig
 Run notebook featureMatrixAnalysis.ipynb to perform EEN undersampling. You get a directory tree like this:
+
+```
 project_folder
 └───Undersampled Data
     ├───trainAndValUndersampledENN3.csv
     ├───trainAndValMinorityClass.csv
     └───trainAndValMajorityClassUndersampled.csv
+```
 
 ### Step 4. Machine Learning model selection and evaluation
 Run notebook featureMatrixAnalysis.ipynb to perform a RandomizedSearcCV over the following models

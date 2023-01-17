@@ -6,8 +6,6 @@
 - ipython 8.6.0
 - beautifulsoup4==4.11.1
 - contractions==0.1.73
-- demoji==1.1.0
-- emoji==2.2.0
 - gensim==4.3.0
 - ipython==8.8.0
 - matplotlib==3.6.3

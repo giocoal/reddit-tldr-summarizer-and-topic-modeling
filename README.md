@@ -4,7 +4,6 @@
 
 - python 3.10.7
 - ipython 8.6.0
-- beautifulsoup4==4.11.1
 - contractions==0.1.73
 - gensim==4.3.0
 - ipython==8.8.0
@@ -13,7 +12,6 @@
 - num2words==0.5.12
 - numpy==1.22.1
 - pandas==1.3.5
-- Pygments==2.11.2
 - seaborn==0.12.2
 - simplemma==0.9.0
 - spacy==3.4.4

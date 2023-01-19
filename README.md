@@ -21,6 +21,10 @@
 - scikit-learn==1.2.0
 - rouge-score==0.1.2
 - imbalanced-learn==0.10.1
+- gensim==4.3.0
+- wordcloud==1.8.2.2
+- pyLDAvis==3.3.1
+- scikit-learn==0.24.2
 
 ## TLDRHQ: Data and Text Pre-processing
 
@@ -222,3 +226,44 @@ Run notebook featureMatrixAnalysis.ipynb to measure summaries quality by means o
 - Rouge1
 - Rouge2 
 - RougeL 
+
+## Topic modeling task
+### Step 0. Perform preprocessing
+Run the `Preprocessing for topic modeling.ipynb` script to process and extract only the useful data. The output is saved here:
+
+```
+project_folder
+└───processed_dataset
+    ├───test.json
+```
+
+### Step 1. Perform topic modeling on the test set
+Run the `topic_modeling.ipynb` script which will perform LDA (with grid search of the best hyper-parameters) and LSA. The script saves 9 CSV files, 3 for LSA and 6 for LDA (UMass and CV coherence measures), containing: document-topic matrix, topic-term matrix and a table with topic insights.
+
+```
+project_folder
+└───Results_topic_modeling
+    ├───lda_doc_topic.csv
+    ├───lda_doc_topic_CV.csv
+    ├───lda_top_terms.csv
+    ├───lda_top_terms_CV.csv
+    ├───lda_topic_term.csv
+    ├───lda_topic_term_cv.csv
+    ├───lsa_doc_topic.csv
+    ├───lsa_top_terms.csv
+    ├───lsa_topic_term.csv
+```
+Saves images regarding the number of words per document and wordcloud in
+
+```
+project_folder
+└───Images
+```
+
+Saves hyperparameters grid search results for UMass and CV coherence in
+```
+project_folder
+└───Hyperparameters
+    ├───tuning.csv
+    ├───tuning_CV.csv
+```

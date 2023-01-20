@@ -20,10 +20,8 @@
 - scikit-learn==1.2.0
 - rouge-score==0.1.2
 - imbalanced-learn==0.10.1
-- gensim==4.3.0
 - wordcloud==1.8.2.2
 - pyLDAvis==3.3.1
-- scikit-learn==0.24.2
 
 ## TLDRHQ: Data and Text Pre-processing
 

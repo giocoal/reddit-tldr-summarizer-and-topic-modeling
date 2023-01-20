@@ -3,7 +3,6 @@
 ## Requirements
 
 - python 3.10.7
-- ipython 8.6.0
 - contractions==0.1.73
 - gensim==4.3.0
 - ipython==8.8.0

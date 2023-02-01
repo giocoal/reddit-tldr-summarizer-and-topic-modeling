@@ -1,11 +1,5 @@
 # Extreme Extractive Text Summarization and Topic Modeling over Reddit Posts from TLDRHQ dataset.
 
-<img src="https://img.shields.io/badge/Complete-Done-red" alt="Soon"/> 
-<img src="https://img.shields.io/badge/NLP-Topic%20Modeling-blue" alt="Soon"/>
-<img src="https://img.shields.io/badge/NLP-Text%20Summarization-blue" alt="Soon"/>
-<img src="https://img.shields.io/github/issues/giocoal/reddit-tldr-summarizer-and-topic-modeling" alt="issu"/>
-<img src="https://img.shields.io/github/license/giocoal/reddit-tldr-summarizer-and-topic-modeling" alt="lisen"/>
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -359,7 +353,7 @@ This project is licensed under the terms of the **MIT** license.
 [license-shield]: https://img.shields.io/github/license/giocoal/reddit-tldr-summarizer-and-topic-modeling.svg?style=for-the-badge
 [license-url]: https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/giorgio-carbone-63154219b/
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/

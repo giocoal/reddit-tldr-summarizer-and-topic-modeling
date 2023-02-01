@@ -9,7 +9,7 @@
 ## Table of contents
 * [Abstract](#abstract)
 * [Requirements](#requirements)
-* [TLDRHQ: Data and Text Pre-processing](TLDRHQ:-Data-and-Text-Pre-processing)
+* [TLDRHQ: Data and Text Pre-processing](#TLDRHQ:-Data-and-Text-Pre-processing)
 * [Tools](#tools)
 * [Screenshots](#screenshots)
 * [Status](#status)

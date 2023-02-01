@@ -310,7 +310,7 @@ project_folder
 
 ## Contact
 
-[NLP topic modeling](https://github.com/giocoal) - feel free to contact us!
+[Giorgio Carbone](https://github.com/giocoal) - feel free to contact me!
 
 
 ## License
@@ -352,7 +352,7 @@ This project is licensed under the terms of the **MIT** license.
 [issues-shield]: https://img.shields.io/github/issues/giocoal/reddit-tldr-summarizer-and-topic-modeling.svg?style=for-the-badge
 [issues-url]: https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling/issues
 [license-shield]: https://img.shields.io/github/license/giocoal/reddit-tldr-summarizer-and-topic-modeling.svg?style=for-the-badge
-[license-url]: https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling/blob/master/LICENSE.txt
+[license-url]: https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/giorgio-carbone-63154219b/
 [product-screenshot]: images/screenshot.png

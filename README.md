@@ -1,5 +1,41 @@
 # Extreme Extractive Text Summarization and Topic Modeling over Reddit Posts from TLDRHQ dataset.
 
+<img src="https://img.shields.io/badge/Complete-Done-red" alt="Soon"/> 
+<img src="https://img.shields.io/badge/NLP-Topic%20Modeling-blue" alt="Soon"/>
+<img src="https://img.shields.io/badge/NLP-Text%20Summarization-blue" alt="Soon"/>
+<img src="https://img.shields.io/github/issues/giocoal/reddit-tldr-summarizer-and-topic-modeling" alt="issu"/>
+<img src="https://img.shields.io/github/license/giocoal/reddit-tldr-summarizer-and-topic-modeling" alt="lisen"/>
+
+## Table of contents
+* [Abstract](#abstract)
+* [Requirements](#requirements)
+* [TLDRHQ: Data and Text Pre-processing](TLDRHQ:-Data-and-Text-Pre-processing)
+* [Tools](#tools)
+* [Screenshots](#screenshots)
+* [Status](#status)
+* [Contact](#contact)
+* [License](#license)
+* [Contributing](#contributing)
+
+## Abstract
+
+Reddit is a social news aggregation and discussion website where users post content (such as links, text posts,
+images, and videos) on a wide range of topics in domain-specific boards called ”communities” or ”subreddits.”
+The following project aims to implement text summarization and topic modelling pipelines on the textual
+content of Redditors’ posts. The dataset used to achieve these goals is the Reddit-based TL;DR summarization
+dataset TLDRHQ[1] containing approximately 1.7 million Reddit posts (submissions as well as comments)
+obtained through scraping techniques. Each instance in the dataset includes a Reddit post and its TL;DR, which
+is an acronym for ”Too Long; Didn’t Read” and is an extremely short summary of the post’s content that is good
+practice for users to leave at the end of a post. While the Reddit usage has increased, the practice of write TL;DR
+didn’t keep the pace. In this context, a system (such as a bot) capable to automatically generate the TL;DR of
+a post could improve Reddit usability. However, the high abstractivity, heterogeneity and noisy of posts make
+the text summarization task challenging. In this work a supervised extreme extractive summarization model
+is developed. Despite its lower complexity, results show that its performance are not so different with respect
+to the state of the art BertSumExt. Moreover the topic modeling analysis of the posts could be really useful in
+identifying the hidden topics in a post and evaluate if it’s published in the right subreddit. In this project LSA and
+LDA techniques are used. On this dataset LSA outperformed LDA and identified 20 well defined topics providing
+the respective document-topics and topic-terms matrices
+
 ## Requirements
 
 - python 3.10.7

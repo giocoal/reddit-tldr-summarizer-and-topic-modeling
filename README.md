@@ -9,6 +9,7 @@
 
 ## Table of contents
 * [Abstract](#abstract)
+* [Paper](https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling/blob/main/Paper/Paper%20-%20Text%20Summarization%20and%20Topic%20Modeling%20over%20Reddit%20Posts.pdf) and [Slides](https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling/blob/main/Paper/Slides%20-%20Text%20Summarization%20and%20Topic%20Modeling%20over%20Reddit%20Posts.pdf)
 * [Requirements](#requirements)
 * [TLDRHQ: Data and Text Pre-processing](#tldrhq-data-and-text-pre-processing)
 * [Extreme Extractive Text Summarization](#extreme-extractive-summarization-task)

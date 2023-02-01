@@ -25,7 +25,7 @@ Reddit is a social news aggregation and discussion website where users post cont
 images, and videos) on a wide range of topics in domain-specific boards called ”communities” or ”subreddits.”
 The following project aims to implement text summarization and topic modelling pipelines on the textual
 content of Redditors’ posts. The dataset used to achieve these goals is the Reddit-based TL;DR summarization
-dataset TLDRHQ[1] containing approximately 1.7 million Reddit posts (submissions as well as comments)
+dataset TLDRHQ containing approximately 1.7 million Reddit posts (submissions as well as comments)
 obtained through scraping techniques. Each instance in the dataset includes a Reddit post and its TL;DR, which
 is an acronym for ”Too Long; Didn’t Read” and is an extremely short summary of the post’s content that is good
 practice for users to leave at the end of a post. While the Reddit usage has increased, the practice of write TL;DR

@@ -10,8 +10,8 @@
 * [Abstract](#abstract)
 * [Requirements](#requirements)
 * [TLDRHQ: Data and Text Pre-processing](#tldrhq-data-and-text-pre-processing)
-* [Extreme Extractive Text Summarization](#tools)
-* [Screenshots](#screenshots)
+* [Extreme Extractive Text Summarization](#extreme-extractive-summarization-task)
+* [Topic Modeling](#topic-modeling-task)
 * [Status](#status)
 * [Contact](#contact)
 * [License](#license)
@@ -260,7 +260,7 @@ Run notebook featureMatrixAnalysis.ipynb to measure summaries quality by means o
 - Rouge2 
 - RougeL 
 
-## Topic modeling task
+## Topic Modeling task
 ### Step 0. Perform preprocessing
 Run the `Preprocessing for topic modeling.ipynb` script to process and extract only the useful data. The output is saved here:
 
@@ -300,3 +300,41 @@ project_folder
     ├───tuning.csv
     ├───tuning_CV.csv
 ```
+
+## Status
+
+ Project is: ![##c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  _Done_
+
+
+## Contact
+
+[NLP topic modeling](https://github.com/giocoal) - feel free to contact us!
+
+
+## License
+* >You can check out the full license [here](https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling/blob/main/README.md)
+
+This project is licensed under the terms of the **MIT** license.
+
+## Contributing
+
+1. Fork it (<https://github.com/giocoal/reddit-tldr-summarizer-and-topic-modeling.git>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+
+# Contributors
+
+* [Giorgio Carbone](https://github.com/giocoal)
+* [Gianluca Scuri](https://github.com/gianscuri)  
+* [Marco Scatassi](https://github.com/marco-scatassi)  
+
+<!-- Project is: ![##c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  _Done_
+ Project is: ![##ff0000](https://via.placeholder.com/15/ff0000/000000?text=+)  _Under-Proccess_
+
+[![Build](https://github.com/SimonIT/spotifylyrics/workflows/Build/badge.svg)](https://github.com/SimonIT/spotifylyrics/actions?query=workflow%3ABuild)
+[![Current Release](https://img.shields.io/github/release/SimonIT/spotifylyrics.svg)](https://github.com/SimonIT/spotifylyrics/releases)
+[![License](https://img.shields.io/github/license/SimonIT/spotifylyrics.svg)](https://github.com/SimonIT/spotifylyrics/blob/master/LICENSE)
+[![GitHub All Releases](https://img.shields.io/github/downloads/SimonIT/spotifylyrics/total)](https://github.com/SimonIT/spotifylyrics/releases)

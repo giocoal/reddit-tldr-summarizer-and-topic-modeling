@@ -9,8 +9,8 @@
 ## Table of contents
 * [Abstract](#abstract)
 * [Requirements](#requirements)
-* [TLDRHQ: Data and Text Pre-processing](#TLDRHQ:-Data-and-Text-Pre-processing)
-* [Tools](#tools)
+* [TLDRHQ: Data and Text Pre-processing](#tldrhq-data-and-text-pre-processing)
+* [Extreme Extractive Text Summarization](#tools)
 * [Screenshots](#screenshots)
 * [Status](#status)
 * [Contact](#contact)
@@ -121,7 +121,7 @@ project_folder
 ```
 The text normalisation operations performed include, in order: Sentence Splitting, HTML tags and entities removal, Extra White spaces Removal, URLs Removal, Emoji Removal, User Age Processing (e.g. 25m becomes 25 male), Numbers Processing, Control Characters Removal, Case Folding, Repeated characters processing (e.g. reallllly becomes really), Fix and Expand English contradictions, Special Characters and Punctuation Removal, Tokenization (Uni-Grams), Stop-Words and 1-character tokens, Lemmatization and POS tagging.
 
-## Summarization task
+## Extreme Extractive Summarization task
 
 ### Step 0. Split and clean'ProcessedData' for easy management
 Run notebook 'Preprocessing for summarization.ipynb' in order to:

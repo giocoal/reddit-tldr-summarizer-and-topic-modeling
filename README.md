@@ -310,7 +310,7 @@ project_folder
 
 ## Contact
 
-[NLP topic modeling](https://github.com/giocoal) - feel free to contact us!
+[Giorgio Carbone](https://github.com/giocoal) - feel free to contact me!
 
 
 ## License

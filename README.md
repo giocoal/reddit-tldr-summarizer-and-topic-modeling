@@ -1,4 +1,4 @@
-# Extractive Text Summarization and Topic Modeling over Reddit Posts
+# Extreme Extractive Text Summarization and Topic Modeling over Reddit Posts from TLDRHQ dataset.
 
 ## Requirements
 

@@ -125,8 +125,8 @@ The text normalisation operations performed include, in order: Sentence Splittin
 
 ## Extreme Extractive Summarization task
 
-### Step 0. Split and clean'ProcessedData' for easy management
-Run notebook 'Preprocessing for summarization.ipynb' in order to:
+### Step 0. Split and clean 'ProcessedData' for easy management
+Run notebook `1_preprocessing4summarization.ipynb` in order to:
 - remove document without summary
 - remove document with a single sentence
 - split train dataset 
@@ -154,7 +154,7 @@ project_folder
 ```
 
 ### Step 1. Create a feature matrix for each of the JSON in 'Processed Data For Summarization'
-Run featureMatrixGeneration.py obtaining feature matrices (sentences x features). You get a directory tree like this:
+Run `1_featureMatrixGeneration.py` obtaining feature matrices (sentences x features). You get a directory tree like this:
 
 ```
 project_folder
@@ -178,7 +178,7 @@ project_folder
     └───val_2.csv
 ```
     
- Run the notebook featureMatrixGeneration2.ipynb to join train, val and test datasets. You get a directory tree like this:
+ Run the notebook `1_featureMatrixGeneration2.ipynb` to join train, val and test datasets. You get a directory tree like this:
  
  ```
  project_folder
@@ -217,7 +217,7 @@ Features generated at this step are the following:
  
     
 ### Step 2. Perform CUR undersampling
-Run notebook featureMatrixUndersampling.ipynb in order to perform CUR undersampling on both train and validation data sets. You get a directory tree like this:
+Run notebook `1_featureMatrixUndersampling.ipynb` in order to perform CUR undersampling on both train and validation data sets. You get a directory tree like this:
 
 ```
 project_folder
@@ -229,7 +229,7 @@ project_folder
 Majority and minority class are splitted because CUR undersampling works only on the majority class
 
 ### Step 3. Perform EditedNearestNeighbours(ENN) undersamplig
-Run notebook featureMatrixAnalysis.ipynb to perform EEN undersampling. You get a directory tree like this:
+Run notebook `1_featureMatrixAnalysis.ipynb` to perform EEN undersampling. You get a directory tree like this:
 
 ```
 project_folder
@@ -240,7 +240,7 @@ project_folder
 ```
 
 ### Step 4. Machine Learning model selection and evaluation
-Run notebook featureMatrixAnalysis.ipynb to perform a RandomizedSearcCV over the following models
+Run notebook `1_featureMatrixAnalysis.ipynb` to perform a RandomizedSearcCV over the following models
 - RandomForestClassifier
 - LogisticRegression
 - HistGradientBoostingClassifier
@@ -254,17 +254,17 @@ Then, evaluate the resulting best model on the test set with respect to:
 - Accuracy
 
 ### Step 5. Perform Maximal Marginal Relevance(MMR) selection
-Run notebook featureMatrixAnalysis.ipynb to perform MMR and obtain an extractive summary for each document in the test set.
+Run notebook `1_featureMatrixAnalysis.ipynb` to perform MMR and obtain an extractive summary for each document in the test set.
 
 ### Step 6. Summary Evaluation
-Run notebook featureMatrixAnalysis.ipynb to measure summaries quality by means of 
+Run notebook `1_featureMatrixAnalysis.ipynb` to measure summaries quality by means of 
 - Rouge1
 - Rouge2 
 - RougeL 
 
 ## Topic Modeling task
 ### Step 0. Perform preprocessing
-Run the `Preprocessing for topic modeling.ipynb` script to process and extract only the useful data. The output is saved here:
+Run the `2_preprocessing4topic_modeling.ipynb` script to process and extract only the useful data. The output is saved here:
 
 ```
 project_folder
@@ -273,7 +273,7 @@ project_folder
 ```
 
 ### Step 1. Perform topic modeling on the test set
-Run the `topic_modeling.ipynb` script which will perform LDA (with grid search of the best hyper-parameters) and LSA. The script saves 9 CSV files, 3 for LSA and 6 for LDA (UMass and CV coherence measures), containing: document-topic matrix, topic-term matrix and a table with topic insights.
+Run the `2_topic_modeling.ipynb` script which will perform LDA (with grid search of the best hyper-parameters) and LSA. The script saves 9 CSV files, 3 for LSA and 6 for LDA (UMass and CV coherence measures), containing: document-topic matrix, topic-term matrix and a table with topic insights.
 
 ```
 project_folder
